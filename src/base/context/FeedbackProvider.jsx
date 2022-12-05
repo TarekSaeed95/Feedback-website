@@ -16,13 +16,13 @@ export function FeedbackProvider ({children}) {
         gettingData()
       },[])
      async function gettingData(){
-      const rowData= await fetch("/feedbacklist");
+      const rowData= await fetch("http://localhost:6000/feedbacklist");
       const data= await rowData.json();
       setFeedback(data)
     }
     //Deleting Feedback-item
     async function deletingFromServer(id){
-      await fetch (`/feedbacklist/${id}`,{
+      await fetch (`http://localhost:6000/feedbacklist/${id}`,{
         method:"DELETE"
       });
       
@@ -49,7 +49,7 @@ export function FeedbackProvider ({children}) {
              }
       /*************Editing feedback*************/
      async function EditingDataOnServer(id,newfeedback){
-      await fetch (`/feedbacklist/${id}`,{
+      await fetch (`http://localhost:6000/feedbacklist/${id}`,{
               method:"PUT",
               headers:{"content-type":"application/json"},
               body:JSON.stringify({...newfeedback})
