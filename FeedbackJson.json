@@ -1,0 +1,29 @@
+{
+  "feedbacklist": [
+    {
+      "id": "dxvbpgubun5oIxZUY1Py7",
+      "text": "this is my first feed",
+      "rating": 1
+    },
+    {
+      "id": "o6CL_2BE-7feoGR7V3ZI5",
+      "text": "this is my Sec feed",
+      "rating": 5
+    },
+    {
+      "id": "Q8735xniAzGUVpQtC4qwj",
+      "text": "this is third feed",
+      "rating": 10
+    },
+    {
+      "id": "-7DwVKaxekrkqHPqulH7C",
+      "text": "this is forth",
+      "rating": 9
+    },
+    {
+      "id": "9MB7KSuyNBgLlIqDJSEJg",
+      "text": "wonderfull product",
+      "rating": 6
+    }
+  ]
+}
